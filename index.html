@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <div class="game-container">
+        <h1>Memory Quest</h1>
+        <div class="controls">
+            <div id="timer">Time: 0s</div> 
+            <div id="moves">Moves: 0</div> 
+            <button id="restart">Restart Game</button>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <select id="theme-select">
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+                <option value="neon">Neon Mode</option>
+            </select>
+            <select id="card-set">
+                <option value="classic">Classic (Fruits & Food)</option>
+                <option value="animals">Animals</option>
+                <option value="space">Space</option>
+                <option value="superheroes">Superheroes</option>
+            </select>
+        </div>
+        <div class="game-board" id="game-board"></div>
+    </div>
+</body>
+</html>
